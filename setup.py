@@ -46,7 +46,7 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=("tests",)),
-    package_data={"gag_pytorch": ["VERSION"]},
+    package_data={"gag_python": ["VERSION"]},
     install_requires=list_reqs(),
     extras_require={},
     include_package_data=True,
